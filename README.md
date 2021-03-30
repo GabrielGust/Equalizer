@@ -105,7 +105,7 @@ Noobframework is a MVC framework with automated [friendly URL](https://techterms
 
 ---
 
-## 📝 Licence
+## 📝 License
 
 This project is under the [MIT](./LICENSE) license.
 
