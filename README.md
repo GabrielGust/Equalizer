@@ -21,7 +21,7 @@
 
 ## 💻 About
 
-📓 Equalizer is a website, made with Noobframework, that solves quadratic equations and presents their maximum and minimum values. The project was made using only PHP, HTML and CSS.
+➕ Equalizer is a website, made with Noobframework, that solves quadratic equations and presents their maximum and minimum values. The project was made using only PHP, HTML and CSS.
 
 ---
 
@@ -46,7 +46,7 @@
 
 ## 🎨 Layout
 
-Some imagens and videos of the project's look:
+Some videos of the project's look:
 
 ![index](https://user-images.githubusercontent.com/65090609/113058309-599b6980-9184-11eb-9e51-788d6934d833.gif)
 ![result](https://user-images.githubusercontent.com/65090609/113058373-6d46d000-9184-11eb-86f3-e567990a06a4.gif)
