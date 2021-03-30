@@ -13,7 +13,7 @@
  <a href="#-requiriments">Requiriments</a> •
  <a href="#-getting-started">Getting Started</a> • 
  <a href="#-how-to-contribute">How to contribute</a> •
- <a href="#-what-is-noobframework?">What is noobframework?</a> •
+ <a href="#-noobframework">Noobframework</a> •
  <a href="#-autor">Autor</a> •
  <a href="#-license">License</a> •
 </p>
@@ -99,7 +99,7 @@ php -S localhost:8080 router.php
 
 ---
 
-## What is noobframework?
+## Noobframework
 
 Noobframework is a MVC framework with automated [friendly URL](https://techterms.com/definition/friendly_url) in PHP for beginners. Aimed at anyone learning the [MVC design pattern](https://pt.wikipedia.org/wiki/MVC) in [PHP](https://www.php.net/). See more in Noobframework [repo](https://github.com/edigar/noobframework).
 
