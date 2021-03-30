@@ -25,7 +25,6 @@
 }
 
 .mainMessage h1 {
-  margin-bottom: 8px;
   font-size: 65px;
   color: #ffffff;
   font-family: 'Averia Serif Libre', cursive;
@@ -35,12 +34,27 @@
   font-size: 19px;
   color: #ffffff;
   font-family: 'Averia Serif Libre', cursive;
+
+}
+
+.mainMessage p b {
+  color: #ffffff;
+  transition: all 0.4s ease 0s;
+}
+
+.mainMessage p:hover b {
+  color: #3F64D3;
 }
 
 .results h2 {
   font-family: 'Roboto', sans-serif;
   font-size: 35px;
   color: #ffffff;
+  transition: all 0.4s ease 0s;
+}
+
+.results h2:hover{
+  color: #3F64D3;
 }
 
 .buttonToHigherLowerPoints {
@@ -55,4 +69,9 @@
   color: #ffffff;
 
   background-color: #3F64D3;
+  transition: all 0.4s ease 0s;
+}
+
+.buttonToHigherLowerPoints:hover {
+  background-color: #314EA5;
 }
