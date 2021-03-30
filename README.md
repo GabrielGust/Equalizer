@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="https://user-images.githubusercontent.com/65090609/113043596-0e2c8f80-9173-11eb-9609-bc4dd3329f0c.png" alt="Equalizer project logo">
+    <img src="https://user-images.githubusercontent.com/65090609/113049980-b3973180-917a-11eb-923c-c4520c6468c4.png" alt="Equalizer project logo">
 </div>
 
 <h4 align="center"> 
