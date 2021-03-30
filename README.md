@@ -1,5 +1,5 @@
 <div align="center">
-	<h3>Equalizer</h3>	
+	<h1>Equalizer</h1>	
 </div>
 
 <div align="center">
