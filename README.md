@@ -7,6 +7,17 @@
 	✔️ Equalizer is under construction, I accept tips and changes ✔️
 </h4>
 
+<p align="center">
+ • <a href="#-about">About</a> •
+ <a href="#-features">Features</a> •
+ <a href="#-requiriments">Requiriments</a> •
+ <a href="#-getting-started">Getting Started</a> • 
+ <a href="#-how-to-contribute-to-the-project">How to contribute</a> •
+ <a href"#-what-is-noobframework?">What is noobframework?</a> •
+ <a href="#-autor">Autor</a> •
+ <a href="#-license">License</a> •
+</p>
+
 ## 💻 About
 
 📓 Equalizer is a website, made with Noobframework, that solves quadratic equations and presents their maximum and minimum values. The project was made using only PHP, HTML and CSS.
@@ -68,7 +79,7 @@ php -S localhost:8080 router.php
 
 ---
 
-## 🔧 How to contribute to the project
+## 🔧 How to contribute
 
 1. **Fork** the project.
 2. Create a new branch with your changes: `git checkout -b my-feature`
