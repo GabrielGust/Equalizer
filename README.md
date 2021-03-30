@@ -1,25 +1,46 @@
-# noobframework
+<div align="center">
+    <img src="https://user-images.githubusercontent.com/65090609/113043596-0e2c8f80-9173-11eb-9609-bc4dd3329f0c.png" alt="Equalizer project logo">
+</div>
 
-A MVC framework with automated [friendly URL](https://techterms.com/definition/friendly_url) in PHP for beginners. Aimed at anyone learning the [MVC design pattern](https://pt.wikipedia.org/wiki/MVC) in [PHP](https://www.php.net/).
+<h4 align="center"> 
+	✔️ Equalizer is under construction, I accept tips and changes ✔️
+</h4>
 
-## MVC
+## 💻 About
 
-Acronym for [Model-View-Controller](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller), it is a software design standard, whose basic principle is the division of the application into three layers: the user interaction layer (view), the data manipulation layer (model) and the layer controller.
+📓 Equalizer is a website, made with Noobframework, that solves quadratic equations and presents their maximum and minimum values. The project was made using only PHP, HTML and CSS.
 
-A quick explanation of each layer:
+---
 
-* Model: Responsible for reading and writing data, and their validations.
-* View: Layer of user interaction. It just displays the data.
-* Controller: Responsible for receiving all user requests, controlling which model to use and which view will be shown to the user. Its methods called actions.
+## ⚙️ Features
 
-![MVC](https://upload.wikimedia.org/wikipedia/commons/a/a0/MVC-Process.svg)
+- [x] Variable insertion screen:
+  - [ ] Sending the inputted data A, B and C 
+  
+- [x] Resolution screen:
+  - [ ] Show results for X' and X" 
+  - [ ] Button redirects to the maximum and minimum point screen
+
+- [x] Maximum and minimum point screen:
+  - [ ] Show the maximum and minimum points according to the variables
+  - [ ] Button redirects to the quadratic function creation screen
+  
+- [x] Anoter features:
+  - [x] Dynamic content between actions
+  - [x] Code reuse
+
+---
 
 ## Requiriments
 
 * PHP >= 7.1
 * apache with Rewrite mode enabled
 
-## Installation
+---
+
+## 👣 Getting started
+
+### Installation
 
 Just clone or download this repository. :)
 
@@ -32,8 +53,8 @@ You can run with docker by building the image and running it.
 For example, at the root of the project, execute:
 
 ```bash
-docker build -t noobframework .
-docker run -d --name noobframework -p 80:80 -v $(pwd):/var/www/html noobframework
+docker build -t equalizer .
+docker run -d --name equalizer -p 80:80 -v $(pwd):/var/www/html equalizer
 ```
 
 ## How to use
@@ -44,16 +65,38 @@ If you use the built-in PHP server on local development, start it with `router.p
 php -S localhost:8080 router.php
 ```
 
-Develop your app inside the `app` folder, which is divided into Controllers, Models and views folders, and the public folder will be your public-facing document root.
+---
 
-In the config folder you can add your application's settings, such as database and base url. Rename config.php.dist to config.php.
+## 🔧 How to contribute to the project
 
-In order to create a controller, inside `app/Controller`, creates a file, with a name ending with Controller, like already existing controller (indexController.php). For example, if you want to create the user controller, create the file userController.php. In this example, the route [your-project]/user comes into existence.
+1. **Fork** the project.
+2. Create a new branch with your changes: `git checkout -b my-feature`
+3. Save your changes and create a commit message telling you what you did: `git commit -m "feature: My new feature"`
+4. Submit your changes: `git push origin my-feature`
 
-Follow this rule to create a model, inside model folder and to create a view, follow the example that already exists in the view folder.
+---
 
-Each controller can have many actions (access methods).
+## 🧑🏾‍💻 Autor
 
-Your application must respond to the url [your-project]/[controller-name]/[action-name]. If your action is called index, there is no need to type in the url.
+<a href="https://www.linkedin.com/in/gabriel-gustavo-araújo-tinoco-3903241b4/"></a>
+<img style="border-radius: 100px;" src="https://avatars3.githubusercontent.com/u/65090609?s=460&u=7439510aef27e2e881033aa12c2fe840f6743ed8&v=4" width="200px;" alt="Foto de perfil"/>
+<br>
+<sub><p><b font-size="25px">Gabriel Gustavo<b><p></sub>
+[![Linkedin Badge](https://img.shields.io/badge/-Gabriel-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/gabriel-gustavo-araújo-tinoco-3903241b4/)](https://www.linkedin.com/in/gabriel-gustavo-araújo-tinoco-3903241b4/) 
+[![Gmail Badge](https://img.shields.io/badge/-gabrielaraujotinoco@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:gabrielaraujotinoco@gmail.com)](mailto:gabrielaraujotinoco@gmail.com)
 
-For more, see [documentation](https://edigar.github.io/noobframework).
+---
+
+## What is noobframework?
+
+Noobframework is a MVC framework with automated [friendly URL](https://techterms.com/definition/friendly_url) in PHP for beginners. Aimed at anyone learning the [MVC design pattern](https://pt.wikipedia.org/wiki/MVC) in [PHP](https://www.php.net/). See more in Noobframework [repo](https://github.com/edigar/noobframework).
+
+---
+
+## 📝 Licence
+
+This project is under the [MIT](./LICENSE) license.
+
+Made with ❤️ by Gabriel Gustavo [Contact](https://www.linkedin.com/in/gabriel-gustavo-araújo-tinoco-3903241b4/)
+
+---
