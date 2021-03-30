@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@400;700&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../../public/css/resultado.css" />    
+    <link rel="shortcut icon" href="../../public/img/equalizerIcon.png">
+    <title>Equalizer - <?php echo $tituloPagina ?></title>
+  </head>
+  <body>
+    <div class="container">
+      <section class="mainMessage">
+        <h1><?php echo $titulo; ?></h1>
+        <p><?php echo $subtitulo; ?></p>
+      </section>
+
+      <section class="results">
+        <h2><?php echo $secaoH1 ?><?php echo $valor1; ?></h2>
+        <h2><?php echo $secaoH2 ?><?php echo $valor2; ?></h2>
+      </section>
+
+      <button class="buttonToHigherLowerPoints" type="submit" form="equationValues"><?php echo $textoBotao ?></button>
+    </div>
+  </body>
+</html>

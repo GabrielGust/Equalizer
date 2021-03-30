@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+
+  background: url(../img/background.jpg);
+  background-size: cover;
+
+  display: flex;
+
+  align-items: center;
+  justify-content:space-evenly;
+  flex-direction: column;
+}
+
+.mainMessage {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.mainMessage h1{
+  margin-bottom: 8px;
+  font-size: 65px;
+  color: #ffffff;
+  font-family: 'Averia Serif Libre', cursive;
+}
+
+.mainMessage p{
+  font-size: 19px;
+  color: #ffffff;
+  font-family: 'Averia Serif Libre', cursive;
+}
+
+.equationForm {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  margin-bottom: 30px;
+}
+
+input {
+  width: 85px;
+}
+
+.A {
+  margin-right: 5px;
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 35px;
+}
+
+.B {
+  margin-right: 5px;
+  margin-left: 5px;
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 35px;
+}
+
+.C {
+  margin-right: 5px;
+  margin-left: 5px;
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 35px;
+}
+
+form p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 35px;
+  color: #ffffff;
+}
+
+.buttonSubmitEquation {
+  padding: 10px 19px;
+  width: 40%;
+  border-radius: 3px;
+
+  border-style:none;
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  color: #ffffff;
+
+  background-color: #3F64D3;
+}

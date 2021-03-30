@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@400;700&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../../public/css/index.css" />
+    <link rel="shortcut icon" href="../../public/img/equalizerIcon.png">
+    <title>Equalizer</title>
+  </head>
+  <body>
+    <div class="container">
+      <section class="mainMessage">
+        <h1>MONTE SUA EQUAÇÃO</h1>
+        <p>Escreva os respectivos valores de <b>A</b>, B e C da equação de segundo grau.</p>
+        <p>Caso o valor seja negativo, acrescente um - antes do número.</p>
+      </section>
+      
+      <form id="equationValues" class="equationForm" method="post" action="../Controllers/resultadoController.php">
+        <input class="A" type="text" placeholder="2" name="valueA" maxlength="4">
+        <p>X²</p>
+        <input class="B" type="text" placeholder="4" name="valueB" maxlength="4">
+        <p>X</p>
+        <input class="C" type="text" placeholder="6" name="valueC" maxlength="4">
+        
+      </form>    
+      
+      <button class="buttonSubmitEquation" type="submit" form="equationValues">Enviar</button>
+    </div>
+  </body>
+</html>
