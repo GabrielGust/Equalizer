@@ -4,7 +4,7 @@
 </div>
 
 <h4 align="center"> 
-	✔️ Equalizer is under construction, I accept tips and changes ✔️
+	🚧 Equalizer is under construction, I accept tips and changes 🚧
 </h4>
 
 <p align="center">
