@@ -79,7 +79,7 @@ php -S localhost:8080 router.php
 
 ---
 
-## 🔧 How to contribute
+## 📤 How to contribute
 
 1. **Fork** the project.
 2. Create a new branch with your changes: `git checkout -b my-feature`
