@@ -54,8 +54,6 @@ Some videos of the project's look:
 
 ---
 
----
-
 ## 🔧 Requirements
 
 * PHP >= 7.1
