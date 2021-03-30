@@ -9,7 +9,8 @@
 
 <p align="center">
  • <a href="#-about">About</a> •
- <a href="#-project-features">Project Features</a> •
+ <a href="#-features">Features</a> •
+ <a href="#-layout">Layout•
  <a href="#-requiriments">Requiriments</a> •
  <a href="#-getting-started">Getting Started</a> • 
  <a href="#-how-to-contribute">How to contribute</a> •
@@ -24,7 +25,7 @@
 
 ---
 
-## ⚙️ Project Features
+## ⚙️ Features
 
 - [x] Variable insertion screen:
   - [ ] Sending the inputted data A, B and C 
@@ -40,6 +41,18 @@
 - [x] Anoter features:
   - [x] Dynamic content between actions
   - [x] Code reuse
+
+---
+
+## 🎨 Layout
+
+Some imagens and videos of the project's look:
+
+![index](https://user-images.githubusercontent.com/65090609/113058309-599b6980-9184-11eb-9e51-788d6934d833.gif)
+![result](https://user-images.githubusercontent.com/65090609/113058373-6d46d000-9184-11eb-86f3-e567990a06a4.gif)
+![maxminpoint](https://user-images.githubusercontent.com/65090609/113058417-79cb2880-9184-11eb-9975-67811ba4631b.gif)
+
+---
 
 ---
 
