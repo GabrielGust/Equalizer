@@ -1,9 +1,6 @@
 <div align="center">
-	<h1>Equalizer</h1>	
-</div>
-
-<div align="center">
     <img src="https://user-images.githubusercontent.com/65090609/113049980-b3973180-917a-11eb-923c-c4520c6468c4.png" alt="Equalizer project logo">
+    <h1>Equalizer</h1>
 </div>
 
 <h4 align="center"> 
