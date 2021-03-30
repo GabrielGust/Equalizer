@@ -9,11 +9,11 @@
 
 <p align="center">
  • <a href="#-about">About</a> •
- <a href="#-project-features">Features</a> •
+ <a href="#-project-features">Project Features</a> •
  <a href="#-requiriments">Requiriments</a> •
  <a href="#-getting-started">Getting Started</a> • 
  <a href="#-how-to-contribute">How to contribute</a> •
- <a href="#-what-is-noobframework">What is noobframework?</a> •
+ <a href="#-what-is-noobframework?">What is noobframework?</a> •
  <a href="#-autor">Autor</a> •
  <a href="#-license">License</a> •
 </p>
